@@ -1,0 +1,37 @@
+{
+  "name": "react-flow",
+  "version": "1.0.0",
+  "description": "Examples of using react with flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run flow && webpack --color",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fediaev/react-flow.git"
+  },
+  "keywords": [
+    "react",
+    "flow"
+  ],
+  "author": "Ivan Fediaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fediaev/react-flow/issues"
+  },
+  "homepage": "https://github.com/fediaev/react-flow#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.68.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
